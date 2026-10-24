@@ -133,7 +133,7 @@ header {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,10 +219,11 @@ button {
   font-family: "Space Mono", monospace;
   margin-bottom: 16px;
   letter-spacing: 8px;
+  width: 100%;
 }
 
-.section_image--wrapper {
-  width: 60%;
+.section__image--wrapper {
+  width: 45%;
   padding: 0 24px;
 }
 
@@ -240,6 +241,8 @@ button {
 .section__card--about {
   background-color: #ffeaaf;
   border-right: 20px solid #badcee;
+  flex: wrap;
+  width: 100%;
 }
 
 .section__card--social {
@@ -253,6 +256,7 @@ button {
   border: 1.5px dashed #c231c2;
   width: 96%;
   border-radius: 16px;
+  flex-direction: column;
 }
 
 .form {
@@ -270,7 +274,7 @@ textarea {
   margin-bottom: 24px;
   font-size: 20px;
   padding: 6px 12px;
-  width: 500px;
+  width: 100%;
   border-radius: 6px;
 }
 
