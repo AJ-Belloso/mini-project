@@ -220,6 +220,7 @@ button {
   margin-bottom: 16px;
   letter-spacing: 8px;
   width: 100%;
+  /* text-align: center; */
 }
 
 .section__image--wrapper {
